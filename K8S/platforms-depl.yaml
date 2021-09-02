@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: platformservice
-          image: lasting/platformservice
+          image: <dockerhubname>/platformservice
           resources:
             limits:
               memory: "128Mi"
